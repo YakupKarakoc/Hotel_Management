@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #a0e9e0, #6dbfbb); /* Yeşil tonlarında degrade arka plan */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 400px; /* Genişlik ayarlandı */
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-form h2 {
+  text-align: center;
+  color: #2f8e89; /* Uygun yeşil tonunda */
+  font-size: 28px; /* Büyütüldü */
+}
+
+.login-form-button {
+  width: 100%;
+  background-color: #2f8e89;
+  border: none;
+  color: white;
+  font-size: 16px; /* Büyütüldü */
+  height: 40px; /* Yükseklik eklendi */
+}
+
+.login-form-button:hover {
+  background-color: #276d67;
+}
+
+.login-form-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-form-footer a {
+  color: #2f8e89;
+  text-decoration: none;
+}
+
+.login-form-footer a:hover {
+  text-decoration: underline;
+}
